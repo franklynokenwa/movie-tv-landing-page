@@ -27,10 +27,13 @@ nav{
     margin-left: 30rem;
 }
 
-nav img{
+.logo h4{
     width: 12rem;
     height: 3rem;
     margin-left: 3rem;
+    font-family: 'Zen Dots', cursive;
+    font-style: italic;
+    color: rgb(0, 255, 41);
     
 }
 .nav-items{
@@ -65,6 +68,8 @@ nav img{
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: rgb(0, 146, 23);
+    position: relative;
+    left: -16rem;
 }
 .introduction-data p{
     font-size: 1rem;
@@ -76,12 +81,12 @@ nav img{
     width: 8rem;
     border: 1px solid  rgb(0, 146, 23);
     position: relative;
-    left: 16rem;
+    left: 14rem;
 }
 .next{
     font-size: 2rem;
     position: relative;
-    left: 19rem;
+    left: 17rem;
     color: green;
 }
 .bounce{
@@ -139,7 +144,6 @@ nav img{
     }
   }
   
-
 .social-media-icons{
     flex-direction: column;
     position: relative;
@@ -148,7 +152,7 @@ nav img{
 
 }
 .social-media-icons i{
-    color: white;
+    color: rgb(0, 146, 23);
     font-size: 2rem;
     padding-bottom: 1.5rem;
 }
@@ -162,12 +166,16 @@ nav img{
     font-weight: 400;
     font-size: 14rem;
     margin-bottom: -2rem;
+    -webkit-text-stroke:5px black;
+    -webkit-text-fill-color:transparent;
     
 }
 .company-name p{
-    margin-left: 48rem;
+    margin-left: 42rem;
     font-weight: 600;
     font-size: 3rem;
+    -webkit-text-stroke:5px white;
+    -webkit-text-fill-color:transparent;
 }
 .carousel{
     z-index: 1;
@@ -336,7 +344,7 @@ nav img{
 footer{
     background-color: RGB(4, 28, 15);
 }
-footer img{
+footer h4{
     width: 15rem;
     height: 5rem;
     position: relative;
@@ -406,6 +414,102 @@ footer img{
     }
     .privacy{
         margin-left: 18rem;
+    }
+    .carousel{
+        z-index: 1;
+        position: relative;
+        top: -14rem;
+        width: 26.8rem;
+    }
+    .company-name{
+        flex-direction: column;
+        position: relative;
+        left: 11rem;
+        top: -7rem;
+    }
+    .company-name h1{
+        font-weight: 400;
+        font-size: 5rem;
+        margin-bottom: -1rem;
+        margin-left: -8rem;
+        
+    }
+    .company-name p{
+        margin-left: 9rem;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .social-media-icons{
+        flex-direction: column;
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+    
+    }
+    .social-media-icons i{
+        color: white;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .image1 {
+        width: 18rem;
+        margin-left: 4rem;
+    }
+    .introduction{
+        padding-bottom: 33rem;
+    }
+    .introduction-data{
+        flex-direction: column;
+        position: absolute;
+        top: 23rem;
+        left: 3rem;
+        z-index: 1;
+    }
+    .introduction-data h3{
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: rgb(0, 146, 23);
+        position: relative;
+        left: -3rem;
+    }
+    .introduction-data p{
+        font-size: 1rem;
+        font-weight: 400;
+        position: relative;
+        left: 0rem;
+    }
+    #button{
+        width: 8rem;
+        border: 1px solid  rgb(0, 146, 23);
+        position: relative;
+        left: 5rem;
+    }
+    .next{
+        font-size: 2rem;
+        position: relative;
+        left: 9rem;
+        color: green;
+    }
+    nav{
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        border-bottom: 1px solid RGB(58, 67, 61);
+        
+    }
+    
+    nav img{
+        width: 8rem;
+        height: 3rem;
+        margin-left: 1rem;
+        
+    }
+    .nav-items button{
+        border-radius: 50px;
+        margin-left: 5rem;
+        
     }
 }
 
@@ -511,6 +615,8 @@ footer img{
         font-size: 2.5rem;
         margin-bottom: 1rem;
         color: rgb(0, 146, 23);
+        position: relative;
+        left: -3rem;
     }
     .introduction-data p{
         font-size: 1rem;
